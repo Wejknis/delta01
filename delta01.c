@@ -24,16 +24,16 @@ int main() {
         if
                 (delta > 0)
         {
-            printf("pierwszy wynik x: %2f", (-b - sqrt(delta)) / (2 * a));
-            printf("drugi wynik x: %2f/n", (-b + sqrt(delta)) / (2 * a));
+            printf("\npierwszy wynik x: %2f\n", (-b - sqrt(delta)) / (2 * a));
+            printf("drugi wynik x: %2f", (-b + sqrt(delta)) / (2 * a));
         } else {
             if
                     (delta == 0) {
-                printf("pierwszy wynik x: %2i/n", -b / (2 * a));
+                printf("\nwynik x: %2i/n", -b / (2 * a));
             } else {
                 if
                         (delta < 0) {
-                    printf("brak wyników");
+                    printf("\nbrak wyników");
                 }
             }
 
